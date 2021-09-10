@@ -15,5 +15,9 @@ public class User {
 
     @Id
     private Long userId;
+    private String firstName;
+    private String LastName;
+    private String email;
+    private Long departmentId;
 
 }
